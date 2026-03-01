@@ -2,6 +2,9 @@
 
 A modern, clean, and fully responsive static website for a premium coffee shop. This project focuses on high-quality aesthetics, semantic HTML structure, and advanced CSS techniques.
 
+## 🔗 Live Demo
+Check out the live website here: [https://coffeebeans1.netlify.app/](https://coffeebeans1.netlify.app/)
+
 ## 🌟 Features
 
 - **Premium Design**: Modern color palette (Deep Brown, Cream, and Burnt Orange) with a professional look and feel.
