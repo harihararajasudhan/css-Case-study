@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | coffee beans</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-lg);
+            align-items: center;
+        }
+
+        .about-image img {
+            border-radius: 8px;
+            box-shadow: var(--shadow-hover);
+        }
+
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">coffee beans</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="assets/hero.png" alt="Our Coffee Shop Interior">
+            </div>
+            <div class="about-text">
+                <h1>Our Story</h1>
+                <p>Founded in 2012, coffee beans started with a simple dream: to bring the world's most exceptional
+                    coffee beans to our neighborhood. We believe that coffee is more than just a drink—it's a ritual, a
+                    moment of peace, and a way to connect.</p>
+                <p style="margin-top: var(--space-sm);">Our beans are ethically sourced and roasted in small batches to
+                    preserve their unique flavor profiles. From our humble beginnings as a small cart, we've grown into
+                    a community hub where everyone is welcome.</p>
+
+                <h2 style="margin-top: var(--space-md);">Our Mission</h2>
+                <p>To provide a premium coffee experience that inspires and delights our customers while supporting
+                    sustainable farming practices and local communities.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>coffee beans</h3>
+                <p>3/123, coffee street, bangalore</p>
+                <p>Open Daily: 7 AM - 8 PM</p>
+            </div>
+            <p class="copyright">&copy; 2026 coffee beans. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

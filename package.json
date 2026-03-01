@@ -1,0 +1,17 @@
+{
+    "name": "coffee-shop-website",
+    "version": "1.0.0",
+    "description": "Premium Coffee Shop Static Website",
+    "main": "index.html",
+    "scripts": {
+        "start": "npx serve -l 8080"
+    },
+    "keywords": [
+        "coffee",
+        "html",
+        "css",
+        "static"
+    ],
+    "author": "Antigravity",
+    "license": "MIT"
+}

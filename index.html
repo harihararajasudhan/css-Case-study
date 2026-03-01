@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee beans | Premium Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">coffee beans</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Crafting Perfect Moments, One Cup at a Time.</h1>
+                <p>Welcome to coffee beans, where passion for coffee meets a cozy atmosphere. Experience the finest
+                    beans from around the world.</p>
+                <a href="menu.html" class="btn btn-primary">Discover the Menu</a>
+            </div>
+        </section>
+
+        <section class="featured section-padding">
+            <div class="container">
+                <h2 class="text-center">Our Signature Brews</h2>
+                <div class="product-grid"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-md); margin-top: var(--space-md);">
+                    <div class="product-card"
+                        style="background: var(--white); border-radius: 8px; overflow: hidden; box-shadow: var(--shadow); transition: transform 0.3s ease;">
+                        <img src="assets/espresso.png" alt="Signature Espresso"
+                            style="width: 100%; height: 250px; object-fit: cover;">
+                        <div style="padding: var(--space-sm);">
+                            <h3>Signature Espresso</h3>
+                            <p>A bold and rich single-shot of our house-roasted Arabica beans. Perfect for a quick
+                                pick-me-up.</p>
+                            <p style="color: var(--accent); font-weight: 700; margin-top: var(--space-sm);">₹290</p>
+                        </div>
+                    </div>
+                    <div class="product-card"
+                        style="background: var(--white); border-radius: 8px; overflow: hidden; box-shadow: var(--shadow); transition: transform 0.3s ease;">
+                        <img src="assets/latte.png" alt="Classic Caffe Latte"
+                            style="width: 100%; height: 250px; object-fit: cover;">
+                        <div style="padding: var(--space-sm);">
+                            <h3>Artisan Latte</h3>
+                            <p>Velvety steamed milk poured over our signature espresso, topped with a delicate layer of
+                                foam.</p>
+                            <p style="color: var(--accent); font-weight: 700; margin-top: var(--space-sm);">₹390</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>coffee beans</h3>
+                <p>3/123, coffee street, bangalore</p>
+                <p>Open Daily: 7 AM - 8 PM</p>
+            </div>
+            <p class="copyright">&copy; 2026 coffee beans. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
